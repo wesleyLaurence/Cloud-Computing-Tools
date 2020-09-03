@@ -1,4 +1,4 @@
-""" Algorithms for distributed systems and cloud computing """
+""" Algorithms for distributed systems and cloud computing. """
 
 import numpy as np
 import pandas as pd
