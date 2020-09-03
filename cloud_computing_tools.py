@@ -3,8 +3,6 @@
 import numpy as np
 import pandas as pd
 
-
-
 class BloomFilter:
     
     def __init__(self, m, elements):
@@ -54,7 +52,6 @@ class BloomFilter:
         
         return status
 
-    
 
 class FingerTable:
     
@@ -89,8 +86,7 @@ class FingerTable:
 
         return ft_list
     
-    
-    
+        
 class MTTF:
     
     def calculate(rate_of_failure, num_servers):
@@ -104,8 +100,7 @@ class MTTF:
         hours_in_month = 24*30
 
         return (months_until_failure*hours_in_month) / num_servers
-    
-    
+       
     
 class PUE:
     
